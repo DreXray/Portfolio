@@ -1,0 +1,77 @@
+body{
+    height: 150%;
+    background-image: url(https://wallpaperaccess.com/full/310182.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-blend-mode:luminosity;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    background-color: transparent;
+    float: Left;
+    height:fit-content;
+    width: fit-content;
+}
+#Name>p{
+    color: blue;
+    font-style: italic;
+    font-size: medium;
+}
+
+main{
+    color:  darkturquoise;
+    display: grid; grid-template-rows: -1fr 1fr 1fr;
+    position: sticky;
+    background-color: transparent;
+    
+}
+#Image{
+    padding-top: 5%;
+}
+#Contacts{
+    color: blue;
+    padding: 2%;
+    border-style: groove;
+    margin: 5%;
+}
+#Events{
+    color:cadetblue;
+    padding: 2%;
+    border-style:double;
+    margin: 5%;
+    width: fit-content;
+    height: fit-content;
+}
+
+#Name{
+    background-color: transparent;
+    padding: 1%;
+    border-style:hidden;
+    border-radius: 5%;
+    margin: 3%;
+    font: 15pt oblique;
+    color: black;
+    
+
+}
+
+#BIOGRAPHY{
+    padding: 5%;
+    border-style: dashed;
+    margin: 5%;
+}
+#Album{
+    margin: 5%;
+    font-size: 1rem;
+    font-weight:bolder;
+    display: grid; grid-template-columns: 1fr 1fr;
+    color: white;
+    height: fit-content;
+    height: fit-content;
+    border: tomato;
+    border-style: double;
+    justify-items: center;
+    padding: 2%;
+
+}
